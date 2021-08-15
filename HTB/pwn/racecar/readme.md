@@ -9,14 +9,14 @@ input that is then repeated out via printf directly. Since the flag is never
 printed to stdout we can use the format string here.
 
 Steps to solve:
-	* Enter any fluff for the first two inputs
-	* Enter 2
-	* Enter 2 
-	* Enter 1
-	* For the win message enter a bunch of "%p" to print the pointers 
-		from the stack
-	* Strip the "0x" and "(nil)" from the output returned
-	* Convert the remaining output to ascii
-	* Search for a string the represents the flag
-		* This string will be in sets of 4 bytes
-	* Reverse the 4 byte string sets
+* Enter any fluff for the first two inputs
+* Enter 2
+* Enter 2 
+* Enter 1
+* For the win message enter a bunch of "%p" to print the pointers 
+	from the stack
+* Strip the "0x" and "(nil)" from the output returned
+* Convert the remaining output to ascii
+* Search for a string the represents the flag
+	* This string will be in sets of 4 bytes
+* Reverse the 4 byte string sets

@@ -13,4 +13,4 @@ Knowning this we can construct our exploit with the following steps:
 * Jump to flag address
 * Add 4 bytes to get to the location of the first parameter
 * Add the bytes of 0xdeadbeef to the payload (parameter 1)
-* Add the bytes of c0ded00d to the payload (parameter 2)
+* Add the bytes of 0xc0ded00d to the payload (parameter 2)
